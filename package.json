@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "new delivery app backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Isaac Vázquez",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "crypto": "^1.0.1",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "morgan": "^1.10.0",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "pg-promise": "^10.11.1",
+    "socket.io": "^4.5.1"
+  }
+}
